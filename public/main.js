@@ -163,11 +163,6 @@ function main() {
 
   average = sumOfArray / numbers.length
 
-  console.log(smallest)
-  console.log(largest)
-  console.log(sumOfArray)
-  console.log(average)
-
   const stats = {
     smallest: smallest,
     largest: largest,
