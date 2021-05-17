@@ -1,7 +1,7 @@
 function main() {
-  if (document.querySelector('h1.hello-world')) {
-    document.querySelector('h1.hello-world').textContent = 'Hello, World!'
-  }
+  const numberOfCups = 1
+  const fullName = 'Nathan Pham'
+  console.log(`${fullName} has ${numberOfCups} cup of coffee a day`)
 }
 
 document.addEventListener('DOMContentLoaded', main)
